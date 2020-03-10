@@ -1,9 +1,5 @@
-package com.kknn.practice.pattern.adapter.login;
+package com.kknn.practice.pattern.adapter.passport;
 
-/**
- * @author kangfw5
- * @since 2019-07-24
- */
 public class ResultMsg {
 
     private int code;

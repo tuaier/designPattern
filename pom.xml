@@ -21,7 +21,6 @@
     </build>
 
     <dependencies>
-
         <dependency>
             <groupId>cglib</groupId>
             <artifactId>cglib</artifactId>

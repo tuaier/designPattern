@@ -1,6 +1,6 @@
-package com.kknn.practice.pattern.adapter.login.v1.service;
+package com.kknn.practice.pattern.adapter.passport.v1.service;
 
-import com.kknn.practice.pattern.adapter.login.ResultMsg;
+import com.kknn.practice.pattern.adapter.passport.ResultMsg;
 
 public class SinginForThirdService extends SiginService {
 

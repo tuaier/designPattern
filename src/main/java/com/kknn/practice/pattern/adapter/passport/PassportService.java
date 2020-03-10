@@ -1,17 +1,13 @@
-package com.kknn.practice.pattern.adapter.login.v1.service;
+package com.kknn.practice.pattern.adapter.passport;
 
-import com.kknn.practice.pattern.adapter.login.Member;
-import com.kknn.practice.pattern.adapter.login.ResultMsg;
-
-public class SiginService {
-
+public class PassportService {
     /**
      * 注册方法
      * @param username
      * @param password
      * @return
      */
-    public ResultMsg regist(String username, String password){
+    public ResultMsg regist(String username,String password){
         return  new ResultMsg(200,"注册成功",new Member());
     }
 
@@ -24,5 +20,4 @@ public class SiginService {
     public ResultMsg login(String username,String password){
         return null;
     }
-
 }

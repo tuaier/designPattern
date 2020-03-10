@@ -1,6 +1,6 @@
-package com.kknn.practice.pattern.adapter.login.v1;
+package com.kknn.practice.pattern.adapter.passport.v1;
 
-import com.kknn.practice.pattern.adapter.login.v1.service.SinginForThirdService;
+import com.kknn.practice.pattern.adapter.passport.v1.service.SinginForThirdService;
 
 public class SiginForThirdServiceTest {
     public static void main(String[] args) {

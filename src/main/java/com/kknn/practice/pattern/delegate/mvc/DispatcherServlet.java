@@ -1,6 +1,8 @@
 package com.kknn.practice.pattern.delegate.mvc;
 
 import com.kknn.practice.pattern.delegate.mvc.controllers.MemberController;
+import com.kknn.practice.pattern.delegate.mvc.controllers.OrderController;
+import com.kknn.practice.pattern.delegate.mvc.controllers.SystemController;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -47,6 +49,9 @@ public class DispatcherServlet extends HttpServlet {
     @Override
     public void init() throws ServletException {
         Class<?> memberControllerClass = MemberController.class;
+        Class<?> memberControllerClass2 = OrderController.class;
+        Class<?> memberControllerClass3 = SystemController.class;
+
         try {
             handlerMapping.add(new Handler().setController(memberControllerClass.newInstance())
                     .setMethod(memberControllerClass.getMethod("getMemberById", String.class))
